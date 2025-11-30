@@ -6,3 +6,4 @@ peso  = input ('qual seu peso? ')
  
 print (nome,',', idade,'anos','e',peso,'kg')
 
+#teste de commit pelo windows
