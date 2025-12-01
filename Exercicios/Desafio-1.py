@@ -7,7 +7,6 @@ print(f'Tipo primitivo: {type(dado)}')
 # está em maisúcula? Minúscula? Espaço?
 
 print (f'É numérico? {dado.isnumeric()}')
-
 print (f'é decimal? {dado.isdecimal()}')
 print (f'é digito? {dado.isdigit()}')
 
@@ -19,4 +18,5 @@ print (f'Está em minúscula? {dado.islower()}')
 
 print (f'É somente espaços? {dado.isspace()}')
 print (f'É simbolo? {dado.isascii()}') 
+print (f'Está capitalizada? {dado.istitle()}')
 
