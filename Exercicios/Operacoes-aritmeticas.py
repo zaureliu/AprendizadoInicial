@@ -1,7 +1,7 @@
 #Exercicios para treinar operações matemáticas
 #Ordem de precedência:
 # () parenteses
-# ** exponenciação
+# ** e  xponenciação
 # *, / , //, %
 # + e -
 
