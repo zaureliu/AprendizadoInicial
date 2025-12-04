@@ -7,3 +7,6 @@ triplo=(numero * 3)
 raiz=(numero ** 2)
 
 print('O dobro do numero é {}, o seu triplo é: {} e sua raiz quadarada é: {}. '.format(dobro,triplo,raiz))
+
+
+#finalizado
