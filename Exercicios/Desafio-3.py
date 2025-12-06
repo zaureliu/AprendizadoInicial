@@ -8,7 +8,7 @@ nota2=int(input('digite a segunda nota: '))     #Pede informação ao usuário(a
 
 media=((nota1 + nota2)/2)   #Cálculo para saber a média.
 
-print('A média do aluno(a)', aluno, 'é:', media )
+print('A média do aluno(a)', aluno, 'é:', media )   #Mostra as informações para usuário.
 
 
 
