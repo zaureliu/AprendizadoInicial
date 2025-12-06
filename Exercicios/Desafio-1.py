@@ -23,4 +23,3 @@ print (f'É somente espaços? {dado.isspace()}')
 print (f'É simbolo? {dado.isascii()}') 
 print (f'Está capitalizada? {dado.istitle()}')
 
-#finalizado
