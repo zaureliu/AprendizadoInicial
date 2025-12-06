@@ -7,10 +7,10 @@ salario1=input(f'Bem vindo, {nome}! digite o seu salário mensal: ')
 salario1=salario1.replace(',','.')
 salario=float(salario1)
 
-#cálculo para descobrir a quantidade que irá aumentar
+#Cálculo para descobrir a quantidade que irá aumentar
 aumento=(salario*(15/100))
 
-#cálculo que irá fazer a soma do salário junto com 15% a mais
+#Cálculo que irá fazer a soma do salário junto com 15% a mais
 aumento1=(salario+aumento)
 
 
