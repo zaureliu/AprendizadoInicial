@@ -15,9 +15,10 @@ salario=float(salario1)
 #Conversão do valor em numero decimal, caso for inserido.
 
 aumento=(salario*(15/100))
-#Cálculo que irá descobrir valor que irá aumentar baseado no salário.
+#Cálculo que irá descobrir valor exato a aumentar(porcentagem fixa).
 
 aumento1=(salario+aumento)
-#Cálculo que irá fazer a soma do salário junto com 15% a mais
+#Cálculo que irá fazer a soma do salário junto com 15% a mais.
 
 print(f'Olá {nome}, seu salário atual com aumento de 15% é: {aumento1}.')
+#Imprime na tela o nome do usuário e a informação processada.
