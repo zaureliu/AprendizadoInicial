@@ -1,5 +1,7 @@
 ##Ler o preço de um produto e mostrá-lo com desconto de 5%
 
+
+
 produto=input('Qual o produto? ')          #Solicita o nome do produto
 valor_str=input(f'Qual o valor de {produto}? ')     #Solicita o valor do produto(ele mostra qual produto escolhi.)
 valor_str=valor_str.replace(',','.')    #Fazer a conversão caso o usuário digitar vírgula e entender como número.
