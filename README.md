@@ -1,4 +1,3 @@
 # AprendizadoInicial
-repositório de exercícios
 
-Dentro desse rep, vou documentar desde o 0, meus exercicios de aprendizado
+Dentro desse repositório, vou documentar desde o 0 meus conhecimentos e exercicios de aprendizado.
