@@ -1,17 +1,17 @@
 #Pegar uma informação do usuário e fazer uma filtragem simples
 
 
-dado = (input("Digite algo: "))
+dado = (input("Digite algo: "))  #Armazena uma informação na variável.
 
-print('---Análise da informação inserida---')
-print(f'Tipo primitivo: {type(dado)}')  #Função type sempre retornará string independente do que digite.
+print('---Análise da informação inserida---')  #Mostrar somente um texto ao usuário.
+print(f'Tipo primitivo: {type(dado)}')         #Função type sempre retornará string independente do que digite.
 
 # filtro: Decimal? Numérico? Digito? Alfabético? Alfanumérico?
 # está em maisúcula? Minúscula? Espaço?
 
-print (f'É numérico? {dado.isnumeric()}')       #A função em colchetes vai indicar se a variavél é número (true or false).
-print (f'é decimal? {dado.isdecimal()}')        #A função em colchetes vai indicar se a variavél é número decimal (true or false).
-print (f'é digito? {dado.isdigit()}')           #A função em colchetes vai indicar se a variavél é um dígito (true or false).
+print (f'É numérico? {dado.isnumeric()}')        #A função em colchetes vai indicar se a variavél é número (true or false).
+print (f'é decimal? {dado.isdecimal()}')         #A função em colchetes vai indicar se a variavél é número decimal (true or false).
+print (f'é digito? {dado.isdigit()}')            #A função em colchetes vai indicar se a variavél é um dígito (true or false).
 
 print (f'É alfanumérico? {dado.isalnum()}')      #A função em colchetes vai indicar se a variavél é um alfanumérico (true or false).
 print (f'É alfabético? {dado.isalpha()}')        #A função em colchetes vai indicar se a variavél é uma letra do alfabeto (true or false).
