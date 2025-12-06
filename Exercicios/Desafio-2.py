@@ -1,4 +1,4 @@
-#Criar um algoritmo que peça um número ao usuário e mostre na tela o seu dobro, triplo e raiz quadrada
+#Criar um algoritmo que peça um número ao usuário e mostre na tela o seu dobro, triplo e raiz quadrada.
 
 
 
