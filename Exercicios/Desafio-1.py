@@ -1,3 +1,6 @@
+#Pegar uma informação do usuário e fazer uma filtragem simples
+
+
 dado = (input("Digite algo: "))
 
 print('---Análise da informação inserida---')
