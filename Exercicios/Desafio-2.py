@@ -2,7 +2,7 @@
 
 
 
-numero=int(input('Digite um numero: '))     #Solicita ao usuário que digite um número, nesse caso apenas nº inteiro.
+numero=int(input('Digite um numero: '))     #Solicita ao usuário que digite um número, nesse caso apenas nº INTeiro.
 dobro=(numero * 2)      #Atribuição de variável e operação de cálculo de multiplicação.
 triplo=(numero * 3)     #Atribuição de variáve e operação de cálculo de multiplicação.
 raiz=(numero ** 2)      #Atribuição de variável e operação de cálculo de exponenciação.
