@@ -10,7 +10,7 @@ altura = float(altura)
 
 area=(altura * largura)
 
-totaltinta=(area / 2)
+totaltinta=(area/2)
 
 print('A parede mede {}m² e a quantidade de tinta necessária é {} Litros'.format(area,totaltinta))
 
