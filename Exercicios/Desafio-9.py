@@ -2,16 +2,22 @@
 
 
 
-nome=input('Qual seu nome? ')
+nome=input('Qual seu nome? ')       
+#Solicita informação ao usuário.
+
 salario1=input(f'Bem vindo, {nome}! digite o seu salário mensal: ')
+#Mostra msg personalizada junto com outra informação a ser inserida.
+
 salario1=salario1.replace(',','.')
+#alterar a virgula pelo ponto, caso for inserido.abs
+
 salario=float(salario1)
+#Conversão do valor em numero decimal, caso for inserido.
 
-#Cálculo para descobrir a quantidade que irá aumentar
 aumento=(salario*(15/100))
+#Cálculo que irá descobrir valor que irá aumentar baseado no salário.
 
-#Cálculo que irá fazer a soma do salário junto com 15% a mais
 aumento1=(salario+aumento)
-
+#Cálculo que irá fazer a soma do salário junto com 15% a mais
 
 print(f'Olá {nome}, seu salário atual com aumento de 15% é: {aumento1}.')
