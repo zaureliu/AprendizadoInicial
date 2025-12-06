@@ -1,12 +1,12 @@
-#Crie um algoritmo para pegar um valor em metros e converta para centimetros e milimetros.abs
+#Crie um algoritmo para pegar valor em metros e converta para centímetros e milímetros.
 
-dado=(input('Digite o valor em metros(M): '))
-dado=dado.replace(',','.')
-dado = float(dado)
 
-cm=(dado * 100)
-mm=(dado * 1000)
+dado=(input('Digite o valor em metros(M): '))       #Solicita info ao usuário.
+dado=dado.replace(',','.')      #Substitui virgula pelo ponto na str inserida.
+dado = float(dado)      #Converte a str em número decimal.
 
-print('A medida',dado, '''convertido para cm fica: {}cm e convertido para mm fica: {}mm''' .format(cm,mm))
+cm=(dado * 100)     #Cálculo de conversão.
+mm=(dado * 1000)    #Cálculo de conversão.
 
-#finalizado
+print('A medida',dado, '''convertido para cm fica: {}cm e convertido para mm fica: {}mm''' .format(cm,mm)) #Insere na tela as informações já calculadas.
+                                                                                                #format apenas pega as informações das variavéis e joga nos colchetes.
