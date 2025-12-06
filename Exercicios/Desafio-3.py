@@ -12,5 +12,5 @@ print('A média do aluno(a)', aluno, 'é:', media )   #Mostra as informações p
 
 
 
-#Obs: / => divisão com número decimal no resultado
+#Obs: / => divisão com número decimal no resultado.
 #Obs2: // => divisão mostra apenas o resultado em numero inteiro, sem o 'resto'.
