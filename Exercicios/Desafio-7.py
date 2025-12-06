@@ -8,8 +8,6 @@ largura = largura.replace(',','.')
 largura = float(largura)
 altura = float(altura)
 
-
-
 area =(altura * largura)
 
 totaltinta=(area / 2)
