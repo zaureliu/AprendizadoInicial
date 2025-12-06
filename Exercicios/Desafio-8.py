@@ -1,0 +1,11 @@
+#Ler o preço de um produto e mostrá-lo com desconto de 5%.abs
+
+produto=input('Qual o produto? ')   #solicita o nome do produto
+valor_str=input(f'Qual o valor de {produto}? ') #solicita o valor do produto(ele mostra qual produto escolhi.)
+valor_str=valor_str.replace(',','.')
+valor=float(valor_str) #converter a informação digitada em valor decimal.
+
+desconto=(valor * (5/100))
+desconto1=(valor - desconto)
+
+print('o valor do(a) {} está custando {} R$ com 5%'' de desconto.'.format(produto,desconto1))
