@@ -20,5 +20,6 @@ aumento=(salario*(15/100))
 aumento1=(salario+aumento)
 #Cálculo que irá fazer a soma do salário junto com 15% a mais.
 
-print(f'Olá {nome}, seu salário atual com aumento de 15% é: {aumento1}.')
+print(f'Olá {nome}, seu salário atual com aumento de 15% é: {aumento1:.2f}.')
 #Imprime na tela o nome do usuário e a informação processada.
+# a função após 'aumento1' é para limitar quantidade de casas após virgula.
