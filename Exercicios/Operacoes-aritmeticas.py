@@ -5,6 +5,8 @@
 # *, / , //, %
 # + e -
 
+
+
 n1 = int(input('Digite um valor: '))
 n2 = int(input('digite um segundo valor: '))
 soma  = n1 + n2
