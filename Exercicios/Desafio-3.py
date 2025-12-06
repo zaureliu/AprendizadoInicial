@@ -2,11 +2,15 @@
 
 
 
-aluno=input('Nome do aluno: ')
-nota1=int(input('digite a primeira nota: '))
-nota2=int(input('digite a segunda nota: '))
+aluno=input('Nome do aluno: ')      #Pede informação ao usuário.
+nota1=int(input('digite a primeira nota: '))    #Pede informação ao usuário(aceita somente INTeiro).
+nota2=int(input('digite a segunda nota: '))     #Pede informação ao usuário(aceita somente INTeiro).
 
-media=((nota1 + nota2)/2)
+media=((nota1 + nota2)/2)   #Cálculo para saber a média.
 
 print('A média do aluno(a)', aluno, 'é:', media )
 
+
+
+#Obs: / => divisão com número decimal no resultado
+#Obs2: // => divisão mostra apenas o resultado em numero inteiro, sem o 'resto'.
