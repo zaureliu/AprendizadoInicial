@@ -3,9 +3,10 @@
 
 
 
-numero=int(input('Digite um número: '))
-soma=(numero+1)
-subt=(numero-1)
+numero=int(input('Digite um número: '))   #Solicita informação (apenas numero INTeiro).
+soma=(numero+1)     #Variável recebe operação de soma
+subt=(numero-1)      #Variável recebe operação de subtração
 
 
 print('o número digitado tem como antecessor {} e seu sucessor é {}.'.format(subt,soma))
+#format vai pegar os dados das variáveis e inserir nos colchetes.
