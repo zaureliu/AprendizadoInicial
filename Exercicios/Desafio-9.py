@@ -5,21 +5,15 @@
 nome=input('Qual seu nome? ')       
 #Solicita informação ao usuário.
 
-salario1=input(f'Bem vindo, {nome}! digite o seu salário mensal: ')
-#Mostra msg personalizada junto com outra informação a ser inserida.
+salario1=float(input(f'Bem vindo, {nome}! digite o seu salário mensal: '))
+#Mostra msg personalizada junto com outra informação solicitada.
 
-salario1=salario1.replace(',','.')
-#alterar a virgula pelo ponto, caso for inserido.abs
-
-salario=float(salario1)
-#Conversão do valor em numero decimal, caso for inserido.
-
-aumento=(salario*(15/100))
+aumento=(salario1*(15/100))
 #Cálculo que irá descobrir valor exato a aumentar(porcentagem fixa).
 
-aumento1=(salario+aumento)
+aumento1=(salario1+aumento)
 #Cálculo que irá fazer a soma do salário junto com 15% a mais.
 
 print(f'Olá {nome}, seu salário atual com aumento de 15% é: {aumento1:.2f}.')
 #Imprime na tela o nome do usuário e a informação processada.
-# a função após 'aumento1' é para limitar quantidade de casas após virgula.
+# função após 'aumento1' limita quantidade de casas após virgula.
