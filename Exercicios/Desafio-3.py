@@ -2,13 +2,20 @@
 
 
 
-aluno=input('Nome do aluno: ')      #Pede informação ao usuário.
-nota1=int(input('digite a primeira nota: '))    #Pede informação ao usuário(aceita somente INTeiro).
-nota2=int(input('digite a segunda nota: '))     #Pede informação ao usuário(aceita somente INTeiro).
+aluno=input('Nome do aluno: ')     
+ #Pede informação ao usuário.
 
-media=((nota1 + nota2)/2)   #Cálculo para saber a média.
+nota1=int(input('digite a primeira nota: '))   
+#Pede informação ao usuário(aceita somente INTeiro).
 
-print('A média do aluno(a)', aluno, 'é:', media )   #Mostra as informações para usuário.
+nota2=int(input('digite a segunda nota: '))     
+#Pede informação ao usuário(aceita somente INTeiro).
+
+media=((nota1 + nota2)/2)   
+#Cálculo para saber a média.
+
+print('A média do aluno(a)', aluno, 'é:', media )   
+#Mostra as informações para usuário.
 
 
 
