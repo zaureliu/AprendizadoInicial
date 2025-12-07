@@ -3,21 +3,12 @@
 
 
 
-altura  = input("Qual a altura da parede? ")     
+altura  = float(input("Qual a altura da parede? "))
 #Solicita um valor
 
-largura = input("Qual a largura da parede? ")     
+largura = float(input("Qual a largura da parede? "))   
 #Solicita outro valor
-altura = altura.replace(',','.')         
-#substitui a virgula para ponto caso o usuário digite(py só entende valores com ponto).
-
-largura = largura.replace(',','.')       
-#substitui a virgula para ponto caso o usuário digite(py só entende valores com ponto).
-largura = float(largura)      
-#Converte para decimal em caso de número quebrado
-altura = float(altura)   
-#Converte para decimal em caso de número quebrado
-
+     
 area=(altura * largura)    
 #Calcula área total da parede
 
