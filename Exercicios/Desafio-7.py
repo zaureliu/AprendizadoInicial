@@ -15,4 +15,5 @@ area=(altura * largura)
 totaltinta=(area/2)     
 #Calcula quantidade de tinta necessária com o valor fixo 
 
-print('A parede mede {}m² e a quantidade de tinta necessária é {:.2f} Litros'.format(area,totaltinta))      #mostra na tela as informações necessárias
+print('A parede mede {}m² e a quantidade de tinta necessária é {:.2f} Litros'.format(area,totaltinta))      
+#mostra na tela as informações necessárias
