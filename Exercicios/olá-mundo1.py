@@ -1,3 +1,5 @@
-print('ola mundo!')
-print ('7' + '4')
-print (7+4)
+nome = input('qual seu nome? ')
+idade = input('qual sua idade? ')
+peso = input('qual seu peso? ')
+
+print (nome,idade,peso)
