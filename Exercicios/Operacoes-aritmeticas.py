@@ -13,8 +13,9 @@ mult  = n1 * n2     #Multiplicação.
 div   = n1 / n2     #Divisão com resultado em decimal.
 divint= n1 // n2    #Divisão com resultado inteiro.
 exp1   = n1 ** n2   #Operação de exponenciação.
+resto  = n1 % n2     #Apresenta apenas o resto da divisão.
 
 print('A soma é {}, a multiplicação é: {}, a divisão é: {}'.format(soma,mult,div))
-print('A divisão inteira é: {}, a divisão em decimal é: {}, raiz quadrada é:{}'.format(divint, div, exp1))
+print('A divisão inteira é: {}, a divisão em decimal é: {}, raiz quadrada é: {}, o resto da divisão é: {}'.format(divint, div, exp1, resto))
 
 #função format nas duas ultimas linhas pegam o resultado das variáveis e colocam nos colchetes apenas.
