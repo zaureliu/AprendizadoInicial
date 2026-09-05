@@ -4,7 +4,7 @@
 dado = (input("Digite algo: "))  #Armazena uma informação na variável.
 
 print('---Análise da informação inserida---')  #Mostrar somente um texto ao usuário.
-print(f'Tipo primitivo: {type(dado)}')         #Função type sempre retornará string independente do que digite.
+print(f'Tipo primitivo: {type(dado)}')         #input retorna uma string; type mostra o tipo do dado.
 
 # filtro: Decimal? Numérico? Digito? Alfabético? Alfanumérico?
 # está em maisúcula? Minúscula? Espaço?
@@ -20,6 +20,6 @@ print (f'Está em maiúscula? {dado.isupper()}')   #A função em colchetes vai 
 print (f'Está em minúscula? {dado.islower()}')   #A função em colchetes vai indicar se a variavél esta digitada toda em minúsculo (true or false).
 
 print (f'É somente espaços? {dado.isspace()}')   #A função em colchetes vai indicar se a variavél contém somente espaços (true or false).
-print (f'É simbolo? {dado.isascii()}')           #A função em colchetes vai indicar se a variavél é um caractere ASCII (true or false).
+print (f'Contém somente caracteres ASCII? {dado.isascii()}')  #isascii verifica se todos os caracteres são ASCII; também retorna True para texto vazio.
 print (f'Está capitalizada? {dado.istitle()}')   #A função em colchetes vai indicar se a variavél está com a primeira letra maiúscula (true or false).
 

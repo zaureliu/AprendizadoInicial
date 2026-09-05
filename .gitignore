@@ -1,0 +1,10 @@
+# Arquivos criados pelo sistema e pelo Python.
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Configurações locais de editores e ambientes virtuais.
+.vscode/
+.idea/
+.venv/
+venv/

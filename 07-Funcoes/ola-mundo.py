@@ -13,4 +13,5 @@ def funcao2():
 funcao()  # Imprime 10
 funcao2()  # Imprime 20
 print(variavel_global)  # Imprime 20
-print(variavel_local)  # Gera um erro, a variável não está definida neste escopo.
+# Descomente a linha abaixo para observar o erro de escopo (NameError).
+# print(variavel_local)  # Gera um erro, a variável não está definida neste escopo.

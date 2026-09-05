@@ -16,6 +16,6 @@ exp1   = n1 ** n2   #Operação de exponenciação.
 resto  = n1 % n2     #Apresenta apenas o resto da divisão.
 
 print('A soma é {}, a multiplicação é: {}, a divisão é: {}'.format(soma,mult,div))
-print('A divisão inteira é: {}, a divisão em decimal é: {}, raiz quadrada é: {}, o resto da divisão é: {}'.format(divint, div, exp1, resto))
+print('A divisão inteira é: {}, a divisão em decimal é: {}, potência é: {}, o resto da divisão é: {}'.format(divint, div, exp1, resto))
 
 #função format nas duas ultimas linhas pegam o resultado das variáveis e colocam nos colchetes apenas.

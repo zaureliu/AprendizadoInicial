@@ -6,10 +6,10 @@ aluno=input('Nome do aluno: ')
  #Pede informação ao usuário.
 
 nota1=float(input('digite a primeira nota: '))   
-#Pede informação ao usuário(aceita somente INTeiro).
+#Pede informação ao usuário(float aceita números com parte decimal).
 
 nota2=float(input('digite a segunda nota: '))     
-#Pede informação ao usuário(aceita somente INTeiro).
+#Pede informação ao usuário(float aceita números com parte decimal).
 
 media=(nota1 + nota2)/2   
 #Cálculo para saber a média.
